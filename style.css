@@ -1,0 +1,73 @@
+
+
+form{
+    background: linear-gradient(0deg, rgba(195,34,89,1) 0%, rgba(200,118,23,1) 100%);
+    height:630px ;
+    width:1350px ;
+
+}
+ fieldset{
+    width: 300px;
+    border: 5px double maroon;
+    background: linear-gradient(0deg, rgba(212,136,48,1) 56%, rgba(180,49,94,1) 100%);
+    color: white;
+    border-radius:3px ;
+    margin-left: 480px;
+    height: 350px;
+ }
+ h2{
+    color: white;
+    border: 2px solid maroon;
+    background: linear-gradient(0deg, rgba(212,136,48,1) 56%, rgba(180,49,94,1) 100%);
+    font-weight: 100px;
+ }
+ input{
+    margin-bottom: 10px;
+    border: 1px solid maroon;
+    border-radius: 2px;
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: 30px;
+    background-position: 1px;
+    padding-left: 30px;
+    padding-top:5px;
+    padding-bottom:5px ;
+    color: white;
+} 
+p{
+    color:darkgreen;
+    text-align: center;
+}
+input:focus{
+    outline: none;
+    border: 1px solid white ;
+    background-color: #bd567a;
+}
+input:active{
+    background-color: rosybrown;
+   
+}
+ 
+ .Email{
+    margin-left: 3px;
+    background-image:url(asset/images/email-removebg-preview.png) ;
+ }
+ .Password{
+    margin-left: 3px;
+    background-image:url(asset/images/padlock-removebg-preview.png) ;
+ }
+ button{
+    margin-left: 110px;
+    border-radius: 3px;
+   background-color:#bd567a;
+   color: white;
+   border: none;
+   font-size: 20px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+ }
+ button:hover{
+    color:wheat ;
+    background-color: maroon;
+    font-size: 30px;
+ }
